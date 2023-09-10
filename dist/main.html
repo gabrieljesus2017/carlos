@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-image: url("./img/155259235_1326479651061255_5138924866684428112_n.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      /* Estilos adicionales para dispositivos móviles */
+      @media (max-width: 768px) {
+        header {
+          text-align: center;
+        }
+
+        #logo {
+          display: block;
+          margin: 0 auto;
+        }
+
+        nav ul {
+          text-align: center;
+        }
+
+        main {
+          padding: 20px;
+        }
+
+        #servicios ul {
+          padding-left: 20px;
+        }
+        #inicio {
+          display: none;
+        }
+        #servicios {
+          display: none;
+        }
+
+        #redes-sociales {
+          text-align: center;
+        }
+      }
+    </style>
+
+    <title>Abogado - Carlos Miranda</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/logo.png"
+        alt="Logotipo de Abogado Carlos Miranda"
+        id="logo"
+      />
+      <h1>Carlos Andres Miranda Florez - Asesor juridico</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="seccion-fondo">
+        <h2>NUESTRA FIRMA</h2>
+        <p>
+          REPJURIS SAS, Representaciones y Asesorías Especializadas, fundado en
+          el año 2015 bajo el firme fundamento de lealtad profesional con el
+          propósito de entregarle a la sociedad un grupo de profesionales
+          competitivos. Somos una firma cuya orientación está dada a brindar
+          asistencia integral en las áreas jurídica, contable y administrativa;
+          aportando soluciones versátiles, seguras y confiables a nuestros
+          clientes, destacándonos por el compromiso y pasión con que realizamos
+          cada trabajo.
+        </p>
+      </section>
+
+      <section id="servicios">
+        <h2>Servicios Legales</h2>
+        <ul>
+          <li>DERECHO LABORAL & SEGURIDAD SOCIAL</li>
+          <li>DERECHO CORPORATIVO & SOCIETARIO</li>
+          <li>DERECHO URBANISTICO , TERRITORIAL & AMBIENTAL</li>
+          <li>DERECHO CIVIL , INMOBILIARIO Y DE FAMILIA</li>
+        </ul>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros para programar una consulta:</p>
+        <form id="contacto-form">
+          <input type="text" id="nombre" placeholder="Nombre" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Nombre del Abogado. Todos los derechos reservados.</p>
+      <section id="redes-sociales">
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="redes-iconos">
+          <a
+            href="https://www.facebook.com/repjuris.sas?mibextid=ZbWKwL"
+            target="_blank"
+            ><img src="./img/facebook_logos_PNG.png" alt="Facebook"
+          /></a>
+          <a
+            href="https://whatsapp.com/channel/0029Va6Ib8KKLaHjSWgOWk1V"
+            target="_blank"
+            ><img src="./img/Whatsapp.png" alt="Twitter"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/carlos-miranda-590b74269"
+            target="_blank"
+            ><img src="./img/linkedin-logo (1).png" alt="Linkedin"
+          /></a>
+          <a
+            href="https://instagram.com/repjurissas?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+            target="_blank"
+            ><img src="./img/instagram-icon-png-logo.png" alt="Instagram"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
